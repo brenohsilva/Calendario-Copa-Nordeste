@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Miniprojeto desenvolvido em HTML, CSS e JavaScript, o intuito desse projeto é compartilhar as informaçoes e datas dos jogos da copa do nordeste 2023.
+Miniprojeto desenvolvido em HTML, CSS e JavaScript, o intuito desse projeto é compartilhar as informaçoes e datas dos jogos da copa do nordeste 2023 e aprimorar o conhecimnento de manipulação do DOM com o JavaScript.
 
 ## 👨🏻‍💻 Deploy
 
