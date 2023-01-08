@@ -10,6 +10,7 @@ function createGame(player1, hour, player2, titlefisrtteam, titlesecondteam) {
     `
 }
 
+
 let delay = 0;
 
 function createCard(date, day, games) {
@@ -29,15 +30,11 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#cards").innerHTML =     
-    createCard('05/01', "quinta", createGame('vitoria', '19:30', 'cordino', 'Vitoria-BA', 'Cordino-MA') 
-    + createGame('ferroviario', '20:00', 'asa', 'Ferroviario', 'ASA-AL') 
-    + createGame('csa', '20:00', 'potiguar', 'Ferroviario', 'ASA-AL')
-    + createGame('america', '20:00', 'motoclub', 'America-RN', 'Potiguar-RN'))
+    createCard('08/01', "domingo", createGame('csa', '16:00', 'america', 'CSA', 'America-RN') 
+    + createGame('confianca', '16:00', 'ferroviario', 'Confiança', 'Ferroviario'))
     
 +
-    createCard('05/01', "quinta", createGame('confianca', '20:00', 'sousa', 'Confiança', 'Sousa-PB')
-    + createGame('jacuipense', '20:00', 'altos', 'Jacuipense-BA', 'Altos-PI' )
-    + createGame('botafogo', '21:30', 'retro', 'Botafogo-PB', 'Retrô-PE')
-    + createGame('santacruz', '21:30', 'caucaia', 'Santa Cruz', 'Caucaia-CE'))
+    createCard('08/01', "domingo", createGame('vitoria', '16:00', 'jacuipense', 'Vitoria-BA', 'Jacuipense-BA')
+    + createGame('santacruz', '19:15', 'botafogo', 'Santa Cruz', 'Botafogo-PB' ))
 
 
