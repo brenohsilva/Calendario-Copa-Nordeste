@@ -4,7 +4,7 @@ function createGame(player1, hour, player2, titlefisrtteam, titlesecondteam) {
     <li>
         <img src="./assets/icon-${player1}.svg" title= "${titlefisrtteam}" alt="escudo do ${player1}">
         <strong>${hour}</strong>
-        <img src="./assets/icon-${player2}.svg" title= "${titlesecondteam}" alt="esudo do ${player2}">
+        <img src="./assets/icon-${player2}.svg" title= "${titlesecondteam}" alt="escudo do ${player2}">
     </li>
     
     `
@@ -34,7 +34,7 @@ document.querySelector("#cards").innerHTML =
     + createGame('nautico', '17:30', 'crb', 'Nautico', 'CRB'))
     
 +
-    createCard('04/02', "sabado", createGame('abc', '18:30', 'Fortaleza', 'ABC-RN', 'Fortaleza')
+    createCard('04/02', "sabado", createGame('abc', '18:30', 'fortaleza', 'ABC-RN', 'Fortaleza')
     + createGame('bahia', '20:30', 'ferroviario', 'Bahia', 'Ferroviário' ))
 
 +
