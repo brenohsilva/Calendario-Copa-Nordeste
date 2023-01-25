@@ -30,21 +30,21 @@ function createCard(date, day, games) {
 }
 
 document.querySelector("#cards").innerHTML =     
-    createCard('21/01', "sabado", createGame('fluminense', '15:30', 'csa', 'Fluminense do Piaui', 'CSA') 
-    + createGame('vitoria', '17:30', 'santacruz', 'Vitoria-Ba', 'Santa Cruz'))
+    createCard('04/02', "sabado", createGame('ceara', '17:30', 'sampaio', 'Ceará', 'Sampaio Correa') 
+    + createGame('nautico', '17:30', 'crb', 'Nautico', 'CRB'))
     
 +
-    createCard('21/01', "sabado", createGame('fortaleza', '17:30', 'campinense', 'Fortaleza', 'Campinense-PB')
-    + createGame('sport', '19:30', 'abc', 'Sport Recife', 'ABC-RN' ))
+    createCard('04/02', "sabado", createGame('abc', '18:30', 'Fortaleza', 'ABC-RN', 'Fortaleza')
+    + createGame('bahia', '20:30', 'ferroviario', 'Bahia', 'Ferroviário' ))
 
 +
 
-    createCard('22/01', "domingo", createGame('atletico', '16:00', 'nautico', 'Atletico-BA', 'Nautico')
-    + createGame('crb', '16:00', 'sergipe', 'CRB', 'Sergipe' ))
+    createCard('05/02', "domingo", createGame('sergipe', '16:00', 'atletico', 'Sergipe', 'Atletico-BA')
+    + createGame('csa', '16:00', 'vitoria', 'CSA', 'Vitoria-BA' ))
 
 +
 
-    createCard('22/01', "domingo", createGame('ferroviario', '18:00', 'ceara', 'Ferroviario', 'Ceara')
-    + createGame('sampaio', '19:00', 'bahia', 'Sampaio Correa', 'Bahia' ))
+    createCard('05/02', "domingo", createGame('campinense', '18:00', 'sport', 'Campinense-PB', 'Sport Recife')
+    + createGame('santacruz', '20:00', 'fluminense', 'Santa Cruz', 'Fluminense do Piaui' ))
 
 
