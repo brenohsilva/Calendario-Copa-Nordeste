@@ -39,7 +39,7 @@ document.querySelector("#cards").innerHTML =
 
 +
 
-    createCard('05/03', "domingo", createGame('sergipe', '16:00', 'Fluminense', 'Sergipe', 'Fluminense do Piaui')
+    createCard('05/03', "domingo", createGame('sergipe', '16:00', 'fluminense', 'Sergipe', 'Fluminense do Piaui')
     + createGame('bahia', '16:00', 'vitoria', 'Bahia', 'Vitoria-BA' ))
 
 +
